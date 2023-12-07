@@ -30,7 +30,7 @@ body{
     list-style: none;
     display: flex;
     flex-direction: row;
-    font-size: 20px;
+    font-size: 1.25rem;
     justify-content: flex-end;
 }
 /* style the anchor portion */
@@ -72,7 +72,7 @@ li a:hover{
   margin-top: 0.7rem;
   }
   .hero-text p{
-    line-height: 2rem;
+    line-height: 2;
   }
   i{
     font-size: 3rem;
@@ -86,7 +86,7 @@ li a:hover{
   .hero-text button{
     height: 2.5rem;
     width: 12%;
-   font-size: 18px;
+   font-size: 1.13rem;
    background-color: #C8007F;
    color: rgb(0,0,0);
    border-radius: 0.5rem;
@@ -103,13 +103,13 @@ li a:hover{
   }
   /* Increasing the size of the header */
   .about h1 {
-    font-size: 30px;
+    font-size: 1.9rem;
   }
   .about span{
     color: #C8007F;
   }
   .about p{
-    line-height: 2rem;
+    line-height: 2;
   }
   .about hr{
     width: 80%;
@@ -131,12 +131,12 @@ li a:hover{
   padding: 0 0 6.5rem;
   }
  .list ,.list2{
-line-height:2rem;
+line-height:2;
 list-style: none;
  }
 
  .list2 i{
-  font-size: 25px;
+  font-size: 1.6rem;
    }
    /* Styling the project page */
    .projects{
@@ -144,7 +144,7 @@ list-style: none;
     text-align: center;
    }
    .projects p{
-line-height: 1.5rem;
+line-height: 1.5;
    }
    /* Setting properties for the table tag */
    table{
@@ -182,7 +182,7 @@ tr:nth-child(odd) td{
 }
 
 tbody{
-    font-size: 95%;
+    font-size: 0.95rem;
     font-style: italic;
 }
 tbody a{
@@ -244,7 +244,7 @@ progress{
   
   .head{
     padding: 5rem 0 1rem;
-    font-size: 20px;
+    font-size: 1.25rem;
   }
   .head span{
     color: #C8007F;
@@ -258,7 +258,7 @@ progress{
   .icon{
     border-radius: 50%;
     background-color: rgb(170,170,170);
-    font-size: 30px;
+    font-size: 1.88rem;
     height: 3rem;
     padding: 0.5rem 0.7rem 0rem;
     margin: 0 1rem 0 0;
@@ -272,7 +272,7 @@ margin: 20px 0 0;
     height: 2.5rem;
     margin: 0.3rem 0;
     padding: 0 0.5rem ;
-    font-size: 16px;
+    font-size: 1rem;
     background-color: rgb(220,220,220);
     border-radius: 10px;
     border: none;
@@ -281,7 +281,7 @@ margin: 20px 0 0;
     width: 45%;
     height: 2.5rem;
     padding: 0 0.5rem ;
-    font-size: 16px;
+    font-size: 1rem;
     background-color: rgb(220,220,220);
     border-radius: 10px;
     border: none;
@@ -290,7 +290,7 @@ margin: 20px 0 0;
     width: 45%;
     height: 2.5rem;
     padding: 0 0.5rem ;
-    font-size: 16px;
+    font-size: 1rem;
     background-color: rgb(220,220,220);
     border-radius: 10px;
     border: none;
@@ -305,7 +305,7 @@ margin: 20px 0 0;
     width: 90.5%;
     height: 15rem;
     padding: 0.5rem 0.5rem 0;
-    font-size: 16px;
+    font-size: 1rem;
     background-color: rgb(220,220,220);
     border-radius: 10px;
     border: none;
@@ -323,7 +323,7 @@ margin: 20px 0 0;
     color: rgb(250,250,250);
     height: 2rem;
     width: 12%;
-    font-size: 18px;
+    font-size: 1.13rem;
   }
   button[type="submit"]:hover{
     background-color: rgb(0,0,250);
@@ -337,14 +337,4 @@ margin: 20px 0 0;
   }
   
 
-  div{
-    margin: -5px 2px 0;
-    padding: 10px -4px 0 0;
-  }
-  .overlay{
-    position: relative;
-    top: -50px;
-    left: 50px;
-    z-index: 2;
-    transform: translate(-50,-50);
-  }
+ 
