@@ -77,6 +77,7 @@ li a:hover{
   i{
     font-size: 3rem;
     color: #C8007F ;
+    padding: 0 1rem ;
   }
   i:hover{
     background-color: rgb(0,0,250);
@@ -125,11 +126,11 @@ li a:hover{
   }
   /* Using flex to span the list tags to two colums  */
   .flex{display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-content: center;
-  padding: 0 0 2rem;
-  }
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    padding: 0 0 2rem;
+    }
  .list ,.list2{
 line-height:2;
 list-style: none;
@@ -260,10 +261,10 @@ progress{
   padding: 5rem 7rem 0;
 }
 /* styling certifiaction */
-.certificate,h2{
+.certificate {
   text-align: center;
 }
-.certificate, a{
+.certificate a{
   color: rgb(0,0,0);
   display: flex;
   flex-direction: column;
