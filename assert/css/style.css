@@ -125,22 +125,27 @@ body{
     color: #C8007F;
     padding: 0 0 1rem;
   }
-  /* Using flex to span the list tags to two colums  */
+  /* Using flex to span the list tags to two columns  */
   .flex{
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
     padding: 0 0 2rem;
+    width: 100%;
     }
  .list ,.list2{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
 line-height:2;
 list-style: none;
  }
 
- .list2 i{
+ .flex i{
   font-size: 1.6rem;
-   }
+   } 
    .edu{
     text-align: center;
     padding: 0 0 2rem;
