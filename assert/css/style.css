@@ -29,6 +29,7 @@ body{
 #nav-bar ul{
     list-style: none;
     display: flex;
+    align-items: center;
     font-size: 1.25rem;
     gap: 15px;
     padding: 0 1rem;
@@ -50,8 +51,9 @@ body{
 }
 /* Setting properties for the hero image */
 .hero-image {
-    margin-top:3.5rem;
-    height: 30rem;
+  margin: 3.5rem 0 0;
+  height: 60rem;
+    width: 100%;
     position:relative;
     background-position: center;
     background-repeat: no-repeat;
@@ -67,10 +69,10 @@ body{
     transform: translate(-50%, -50%);
     background-color: rgb(0,0,0,0.3);
   width: 100%;
-  height:31.5rem;
+  height:60.3rem;
   color: rgb(250,250,250);
-  padding: 95px 0 0;
-  margin-top: 0.7rem;
+  padding: 180px 0 0;
+  margin-top: 14.6rem;
   }
   .hero-text p{
     line-height: 2;
