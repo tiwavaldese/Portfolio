@@ -11,14 +11,19 @@
     <link rel="icon" href="./assert/images/favicon-logo.PNG">
     <link rel="stylesheet" href="./assert/css/style.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
- 
+    <script src="./assert/js/index.js"></script>
 </head>
 <body>
     <!-- Header tag -->
     <header>
         <!-- Navigation tag with list items within -->
+        
         <nav id="nav-bar">
-            <ul>
+            <div class="logo_menu">
+            <img class="logo" src="./assert/images/favicon-logo.PNG">
+            <i data-feather="menu" class="menu" id="openOverlay" onclick="openOverlay()"></i>
+            </div>
+            <ul class="nav_bar">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Me</a></li>
                 <li><a href="projects.html">Projects</a></li>
@@ -27,6 +32,22 @@
                 <li><a href="contact.html">Contact Me</a></li>
             </ul>
         </nav>
+        <div class="overlay" id="overlay">
+            <div>
+                <span id="closeOverlay" onclick="closeOverlay()"></span>
+                <i data-feather="x" class="closeicon"></i>
+                <div class="menuitems-overlay">
+        <ul class="menuitems-overlay">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="multimedia.html">Multimedia</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+        </div>
+        </div>
+        </div>
     </header>
     <main>
         <section>
@@ -40,8 +61,8 @@
                     <p>Please visit my GitHub and LinkedIn page</p>
                     <br>
                     <!-- Social media icons with my information in there -->
-                    <a href="https://github.com/tiwavaldese"><i class="fa fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/douanla-tiwa-valdese-3b2336204/"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://github.com/tiwavaldese"><i class="fa fa-github social_icons"></i></a>
+                    <a href="https://www.linkedin.com/in/douanla-tiwa-valdese-3b2336204/"><i class="fa fa-linkedin social_icons"></i></a>
                     <br>
                     <br>
                     <!-- Hero button -->
@@ -54,5 +75,16 @@
     <footer>
         <p>Copyright ©2023</p>
     </footer>
+    <script>
+        feather.replace()
+        function openOverlay(){
+            document.getElementById("overlay").style.display = "flex"
+            document.getElementById("openOverlay").style.display= "none"
+        }
+        function closeOverlay(){
+            document.getElementById("overlay").style.display= "none"
+            document.getElementById("openOverlay").style.display= "flex"
+        }
+    </script>
 </body>
 </html>

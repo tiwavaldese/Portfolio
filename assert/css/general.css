@@ -1,0 +1,30 @@
+/* Universal styling which involve styling the entire pages*/
+* {
+    font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* Body section which involve styling the content of the pages*/
+body{
+    background-color: rgb(190,190,190);
+    color: rgb(0,0,0);
+    height: 100%;
+    font-size: 16px;
+    margin: 0 auto;
+}
+
+
+/* This section involve styling the navigation bar*/
+@media all and (min-width:901px){
+
+ /* Setting properties for the footer tag */
+ footer{
+    background-color: rgb(160,160,160);
+    height: 4rem;
+    padding: 2rem 3rem 0rem;
+    margin: 0;
+  }
+  
+}
+ 

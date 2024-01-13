@@ -1,0 +1,116 @@
+.hero {
+  height: 530px;
+    padding: 35px;
+    position:relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0,0.5), rgba(0, 0, 0, 0.5)),url('../images/Tiwa.jpg');
+} 
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+width: 100%;
+color: rgb(250,250,250);
+}
+.hero-text p{
+  line-height: 2;
+}
+.social_icons{
+  font-size: 3rem;
+  color: #C8007F ;
+  padding: 0 1rem 2px;
+}
+.social_icons:hover{
+  background-color: rgb(0,0,250);
+  border-radius: 50%;
+}
+/* Setting properties for the hero button */
+.hero-text button{
+  height: 2.5rem;
+  width: 100px;
+ font-size: 1.13rem;
+ background-color: #C8007F;
+ color: rgb(250,250,250);
+ border-radius: 0.5rem;
+ border: none;
+
+}
+.hero-text button:hover{
+  background-color:  rgb(0,0,250);
+}
+@media all and (min-width:601px)and (max-width:900px){
+  .hero {
+    height: 850px;
+    padding: 0;
+    margin: 102px 0 0;
+      
+  }
+  .hero-text h1{
+    font-size: 30px;
+  }
+  .hero-text p{
+    font-size: 18px;
+  }
+  .social_icons{
+    font-size: 70px;
+   margin: 20px 0;
+  }
+  .hero-text button{
+   font-size: 20px;
+  
+  }
+}
+@media all and (min-width:901px){
+/* Setting properties for the hero image */
+.hero {
+    margin: 3.5rem 0 0;
+    height: 60rem;
+      width: 100%;
+      position:relative;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: linear-gradient(rgba(0, 0, 0,0.5), rgba(0, 0, 0, 0.5)),url('../images/Tiwa.jpg');
+  }
+  /* Setting properties for the hero text */
+  
+  .hero-text {
+      text-align: center;
+      position: absolute;
+      top:40%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    width: 100%;
+    color: rgb(250,250,250);
+    }
+    .hero-text p{
+      line-height: 2;
+    }
+    i{
+      font-size: 3rem;
+      color: #C8007F ;
+      padding: 0 1rem ;
+    }
+    i:hover{
+      background-color: rgb(0,0,250);
+      border-radius: 50%;
+    }
+    /* Setting properties for the hero button */
+    .hero-text button{
+      height: 2.5rem;
+      width: 12%;
+     font-size: 1.13rem;
+     background-color: #C8007F;
+     color: rgb(250,250,250);
+     border-radius: 0.5rem;
+     border: none;
+  
+    }
+    .hero-text button:hover{
+      background-color:  rgb(0,0,250);
+    }
+  }

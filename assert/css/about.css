@@ -1,0 +1,75 @@
+ /* Styling the about page */
+@media all and (min-width:901px){
+ 
+  .about {
+    padding: 8rem 0 0;
+    text-align: center;
+  }
+  /* Increasing the size of the header */
+  .about h1 {
+    font-size: 1.9rem;
+  }
+  .about span{
+    color: #C8007F;
+  }
+  .about p{
+    line-height: 2;
+  }
+  .about hr{
+    width: 80%;
+   margin: 1rem 9rem;
+   border: 1px solid rgb(0,0,0,0.3);
+  }
+  .motivation {
+    text-align: center;
+  }
+  .motivation h2{
+    color: #C8007F;
+    padding: 0 0 1rem;
+  }
+  /* Using flex to span the list tags to two columns  */
+  .flex{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:center;
+    align-items: center;
+    padding: 0 0 2rem;
+    width: 100%;
+    }
+ .list ,.list2{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+line-height:2;
+list-style: none;
+ }
+
+ .flex i{
+  font-size: 1.6rem;
+   } 
+   .edu{
+    text-align: center;
+    padding: 0 0 2rem;
+    line-height: 2;
+    width: 100%;
+   }
+   
+   .edu i{
+    color: rgb(0,0,0);
+    font-size: 1rem;
+    padding-left: 2rem;
+   }
+   .exp{
+    line-height: 2;
+    text-align: center;
+    padding: 0 0 2rem;
+   }
+   
+   .exp span{
+    color: #C8007F
+   }
+}
+  
+
+ 
