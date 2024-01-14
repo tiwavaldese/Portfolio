@@ -10,16 +10,15 @@
     width: 70px;
     height: 70px;
     justify-content: flex-start;
-    padding: 1px;
+    padding: 5px 1px;
 }
 
 .menu{
     display: flex;
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     color: white;
-    justify-content: flex-end;
-    padding: 1px;
+  padding-right: 30px;
 }
 
 

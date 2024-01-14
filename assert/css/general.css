@@ -15,16 +15,3 @@ body{
 }
 
 
-/* This section involve styling the navigation bar*/
-@media all and (min-width:901px){
-
- /* Setting properties for the footer tag */
- footer{
-    background-color: rgb(160,160,160);
-    height: 4rem;
-    padding: 2rem 3rem 0rem;
-    margin: 0;
-  }
-  
-}
- 

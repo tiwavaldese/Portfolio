@@ -1,4 +1,95 @@
- /* Styling the about page */
+ 
+  .about {
+    padding: 20px;
+    text-align: center;
+  }
+  /* Increasing the size of the header */
+  .about h1 {
+    font-size: 1.9rem;
+  }
+  .about span{
+    color: #C8007F;
+  }
+  .about p{
+    line-height: 1.5;
+    text-align: none;
+    text-align: justify;
+  }
+  .about hr{
+    text-align: none;
+    padding: 0;
+    width: 100%;
+   margin: 1rem 0;
+   border: 1px solid rgb(0,0,0,0.3);
+  }
+  .motivation {
+    text-align: center;
+  }
+  .motivation h2{
+    color: #C8007F;
+    padding: 0 0 1rem;
+  }
+  .flex{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 10px;
+    font-size: 12px;
+    }
+ .list ,.list2{
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+line-height:2;
+list-style: none;
+ }
+ 
+ .flex i{
+  font-size: 1.6rem;
+  color: #C8007F;
+   } 
+   .edu{
+    text-align: center;
+    padding: 0 0 2rem;
+    line-height: 2;
+    width: 100%;
+   }
+   .edu i{
+    color: rgb(0,0,0);
+    font-size: 1rem;
+    padding-left: 2rem;
+   }
+   .exp{
+    line-height: 2;
+    text-align: center;
+    padding: 0 0 2rem;
+   }
+   
+   .exp span{
+    color: #C8007F
+   }
+   .exp ul{
+    text-align: justify;
+    padding: 20px;
+   }
+   @media all and (min-width:600px) and (max-width:900px){
+    .about {
+      padding: 8rem 20px 0;
+      text-align: center;
+    }
+    .about p,.edu ol,.exp ul{
+      font-size: 18px;
+    }
+    .motivation h2,.edu h2,.exp h2{
+      font-size: 25px;
+    }
+    .flex{
+      font-size: 18px;
+      gap: 10px;
+      }
+     
+   }
 @media all and (min-width:901px){
  
   .about {
@@ -14,6 +105,7 @@
   }
   .about p{
     line-height: 2;
+    text-align: center;
   }
   .about hr{
     width: 80%;
@@ -68,6 +160,13 @@ list-style: none;
    
    .exp span{
     color: #C8007F
+   }
+   .exp ul{
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+align-items: center;
+list-style: none;
    }
 }
   
