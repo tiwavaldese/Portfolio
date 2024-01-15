@@ -10,13 +10,19 @@
     <title>Multimedia Page</title>
     <link rel="icon" href="./assert/images/favicon-logo.PNG">
     <link rel="stylesheet" href="./assert/css/style.css">
+    <script src="./assert/js/index.js"></script>
 </head>
 <body>
-         <!-- Header tag-->
-    <header>
-             <!-- Navigation tag with list items within-->
+     <!-- Header tag -->
+     <header>
+        <!-- Navigation tag with list items within -->
+        
         <nav id="nav-bar">
-            <ul>
+            <div class="logo_menu">
+            <img class="logo" src="./assert/images/favicon-logo.PNG">
+            <i data-feather="menu" class="menu" id="openOverlay" onclick="openOverlay()"></i>
+            </div>
+            <ul class="nav_bar">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Me</a></li>
                 <li><a href="projects.html">Projects</a></li>
@@ -25,21 +31,53 @@
                 <li><a href="contact.html">Contact Me</a></li>
             </ul>
         </nav>
-    </header> 
+        <div class="overlay" id="overlay">
+            <div>
+                <span id="closeOverlay" onclick="closeOverlay()"></span>
+                <i data-feather="x" class="closeicon"></i>
+                <div class="menuitems-overlay">
+        <ul class="menuitems-overlay">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="multimedia.html">Multimedia</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+        </div>
+        </div>
+        </div>
+    </header>
+
     <main>
         <div class="multimedia">
                  <!-- Images showing some of my work-->
-         <img src="./assert/images/Sweetalert.PNG" width="550" height="450" alt="sweetalert code">   
-         <img src="./assert/images/Tiwa.jpg" width="550" height="450" alt="Tiwa working"> 
+             <div class="sweetTiwa">
+                  <img class="sweetalert" src="./assert/images/Sweetalert.PNG" width="550" height="450" alt="sweetalert code">   
+                  <img class="tiwa" src="./assert/images/Tiwa.jpg" width="550" height="450" alt="Tiwa working"> 
+              </div>
               <!-- Video showing a demonstration of how to draw a Digraph-->
-         <iframe width="700" height="560" src="https://www.youtube.com/embed/uocZVXu6owM" title="Drawing_digraph"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
-              <!-- An audio about me-->
-         <audio src="./assert/audios/About-me.mp3" controls></audio>
+              <div class="videoAudio">
+                  <iframe class="digraph" width="700" height="560" src="https://www.youtube.com/embed/uocZVXu6owM" title="Drawing_digraph"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+                  <!-- An audio about me-->
+                  <audio class="about_me_audio" src="./assert/audios/About-me.mp3" controls></audio>
+              </div>
         </div>
     </main>
          <!-- Footer tag-->
     <footer>
         <p>Copyright ©2023</p>
     </footer>
+    <script>
+        feather.replace()
+        function openOverlay(){
+            document.getElementById("overlay").style.display = "flex"
+            document.getElementById("openOverlay").style.display= "none"
+        }
+        function closeOverlay(){
+            document.getElementById("overlay").style.display= "none"
+            document.getElementById("openOverlay").style.display= "flex"
+        }
+    </script>
 </body>
 </html>

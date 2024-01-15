@@ -1,5 +1,31 @@
+
+.multimedia{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.sweetTiwa{
+  display: flex;
+  flex-direction: column;
+}
+.sweetalert,.tiwa,.digraph{
+  width: 350px;
+  height: 300px;
+  margin: 5px auto;
+}
+
+.videoAudio{
+  display: flex;
+  flex-direction: column;
+}
+.about_me_audio{
+  width: 350px;
+  margin: 5px auto;
+}
+
 @media all and (min-width:901px){
 .multimedia{
+  display: flex;
     padding: 5rem 7rem 0;
   }
 

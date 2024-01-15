@@ -1,118 +1,196 @@
-
-/* Styling the skill page */
 .skills {
-  padding: 5rem 0 0 ;
+  padding: 20px ;
   text-align: center;
-  }
+}
   .skills2 {
+    padding: 25px ;
+    }
+  
+  /* Increasing the progress bar width and height */
+  progress{
     display: flex;
     flex-direction: column;
-    }
-    #align2{
-      padding: 0 2rem;
-    }
-    /* Increasing the progress bar width and height */
-    progress{
-      width: 30rem;
-      height: 2rem;
-    }
-    .html {
-     padding-left: 20rem;
-    }
-    
-    .css {
-      padding: 0 12rem;
-    }
-    .javascript {
-      padding: 0 8rem;
-    }
-    .python {
-      padding: 0 9rem;
-    }
-    .vs_code {
-      padding: 0 16rem;
-    }
-    .git{
-      padding: 0 20rem;
-    }
-    .github{
-      padding: 0 18rem;
-    }
-    .bootstrap{
-      padding: 0 0.3rem;
-    }
-      /* styling certifiaction */
-  .certificate {
-    text-align: center;
+    place-items: center;
+    width: 320px;
+    height: 2rem;
   }
-  .certificate a{
-    color: rgb(0,0,0);
-    display: flex;
-    flex-direction: column;
-    line-height: 2;
-    text-decoration: underline;
+  .html {
+    padding-left: 179px;
+   }
+
+   .css {
+    padding-left: 100px;
   }
-  .certificate a:hover{
-    background-color: rgb(0,0,250);
-    color: rgb(250,250,250);
+  .javascript {
+    padding-left: 50px;
   }
+  .python {
+    padding-left: 70px;
+  }
+  #align2{
+    margin-top: 30px;
+  }
+  .vs_code {
+    padding-left:  140px;
+  }
+  .git{
+    padding-left: 195px;
+  }
+  .github{
+    padding-left: 170px;
+  }
+
+  .bootstrap{
+    padding-left: 10px;
+  }
+    /* styling certifiaction */
+    .certificate {
+      padding: 5px 0 40px;
+      text-align: center;
+    }
+    .certificate h2{
+      text-align: center;
+      padding: 10px 0;
+    }
+   
+    .certificate a{
+      color: rgb(0,0,0);
+      display: flex;
+      flex-direction: column;
+      line-height: 2;
+      text-decoration: underline;
+      padding: 0 20px;
+    }
+    .certificate a:hover{
+      background-color: rgb(0,0,250);
+      color: rgb(250,250,250);
+    }
+
+
+
+    @media all and (min-width:601px)and (max-width:900px){
+      .skills {
+        margin-top: 120px;
+        text-align: center;
+        padding: 20px;
+        }
+
+        .skills h1{
+          font-size: 25px;
+        }
+        .skills p{
+          font-size: 18px;
+        }
+        .skills2 {
+          display: flex;
+          flex-direction: row;
+          margin: 0 auto;
+          justify-content: center;
+          align-items: center;
+          padding:40px ;
+          font-size: 18px;
+          }
+
+          #align2{
+            margin-top: 0;
+            padding: 0 30px;
+          }
+          progress{
+            width: 330px;
+            height: 2rem;
+          }
+        /* styling certifiaction */
+    .certificate {
+      padding: 5px 0 30px;
+      text-align: center;
+    }
+    .certificate h2{
+      text-align: center;
+      padding: 10px 0;
+      font-size: 25px;
+    }
+   
+    .certificate a{
+      padding: 10px 0;
+      font-size: 18px;
+    }
+   
+    }
 @media all and (min-width:901px){
-.skills {
-    padding: 8rem 0 0 ;
+  .skills {
+    margin-top: 120px;
     text-align: center;
+    padding: 20px;
     }
-    /* Align the progress tag to have two columns */
+
+    .skills h1{
+      font-size: 25px;
+    }
+    .skills p{
+      font-size: 18px;
+    }
     .skills2 {
-      padding: 5rem 12rem 2rem;
       display: flex;
       flex-direction: row;
+      margin: 0 auto;
+      justify-content: center;
+      align-items: center;
+      padding:40px ;
+      font-size: 18px;
       }
-    #align2{
-      padding: 0 2rem;
-    }
-    /* Increasing the progress bar width and height */
-    progress{
-      width: 30rem;
-      height: 2rem;
-    }
-    .html {
-     padding-left: 20rem;
-    }
+     
+      #align2{
+        margin-top: 0;
+        padding: 0 30px;
+      }
+      /* Increasing the progress bar width and height */
+      progress{
+        width: 350px;
+        height: 2rem;
+      }
+      .html {
+        padding-left: 195px;
+       }
     
-    .css {
-      padding: 0 12rem;
-    }
-    .javascript {
-      padding: 0 8rem;
-    }
-    .python {
-      padding: 0 9rem;
-    }
-    .vs_code {
-      padding: 0 16rem;
-    }
-    .git{
-      padding: 0 20rem;
-    }
-    .github{
-      padding: 0 18rem;
-    }
-    .bootstrap{
-      padding: 0 0.3rem;
-    }
-      /* styling certifiaction */
-  .certificate {
-    text-align: center;
-  }
-  .certificate a{
-    color: rgb(0,0,0);
-    display: flex;
-    flex-direction: column;
-    line-height: 2;
-    text-decoration: underline;
-  }
-  .certificate a:hover{
-    background-color: rgb(0,0,250);
-    color: rgb(250,250,250);
-  }
-  }
+       .css {
+        padding-left: 100px;
+      }
+      .javascript {
+        padding-left: 50px;
+      }
+      .python {
+        padding-left: 85px;
+      }
+      #align2{
+        margin-top: 0px;
+      }
+      .vs_code {
+        padding-left:  150px;
+      }
+      .git{
+        padding-left: 220px;
+      }
+      .github{
+        padding-left: 190px;
+      }
+    
+      .bootstrap{
+        padding-left: 10px;
+      }
+        /* styling certifiaction */
+        .certificate {
+          padding: 5px 0 10px;
+          text-align: center;
+        }
+        .certificate h2{
+          text-align: center;
+          padding: 10px 0;
+          font-size: 25px;
+        }
+       
+        .certificate a{
+          padding: 10px 0;
+        }
+      
+
+    } 

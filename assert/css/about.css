@@ -15,11 +15,9 @@
     text-align: none;
     text-align: justify;
   }
-  .about hr{
-    text-align: none;
-    padding: 0;
-    width: 100%;
-   margin: 1rem 0;
+  .horizontal_r{
+  
+   margin:15px 0;
    border: 1px solid rgb(0,0,0,0.3);
   }
   .motivation {
