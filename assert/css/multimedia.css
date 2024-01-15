@@ -1,6 +1,6 @@
 
 .multimedia{
-  margin-top: 50px;
+  margin-top: 30px;
   display: flex;
   flex-direction: column;
 }
@@ -22,11 +22,57 @@
   width: 350px;
   margin: 5px auto;
 }
+@media all and (min-width:601px)and (max-width:900px){
 
+  .multimedia{
+    margin: 150px 0 110px;
+  }
+  .sweetTiwa{
+    flex-direction: row;
+    gap: 10px;
+    margin: 5px auto;
+  }
+  .sweetalert,.tiwa,.digraph{
+    width: 370px;
+    height: 300px;
+  }
+  
+  .videoAudio{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 5px auto;
+  }
+  .about_me_audio{
+    width: 370px;
+    margin: 5px auto;
+    height: 300px;
+  }
+}
 @media all and (min-width:901px){
-.multimedia{
-  display: flex;
-    padding: 5rem 7rem 0;
+  .multimedia{
+    margin: 100px 0 50px;
+  }
+  .sweetTiwa{
+    flex-direction: row;
+    margin: 5px auto;
+    gap: 10px;
+  }
+  .sweetalert,.tiwa,.digraph{
+    width: 500px;
+    height: 400px;
+    
+  }
+  
+  .videoAudio{
+    display: flex;
+    flex-direction: row;
+    margin: 5px auto;
+    gap: 10px;
+  }
+  .about_me_audio{
+    width: 500px;
+    height: 400px;
   }
 
 }
