@@ -28,7 +28,7 @@
   padding: 0.5rem 0.7rem 0;
 }
 .field_area{
-  padding: 15px;
+  padding: 20px;
 }
 .field_area input[type="text"]{
 width: 350px;
@@ -89,7 +89,7 @@ height: 40px;
     }
 .map{
   width: 360px;
-  height: 400px;
+  height: 300px;
   margin: 10px auto 0;
   display: flex;
 }
@@ -180,11 +180,9 @@ height: 40px;
     padding: 0 25px;
   }
   .name_email{
-    display: flex;
     gap: 5px;
   }
   .subject_phone{
-    display: flex;
     gap: 5px;
   }
   .field_area input[type="text"]{
