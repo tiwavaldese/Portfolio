@@ -28,10 +28,10 @@
   padding: 0.5rem 0.7rem 0;
 }
 .field_area{
-  padding: 20px;
+  padding: 30px;
 }
 .field_area input[type="text"]{
-width: 350px;
+width: 360px;
 height: 40px;
   padding:  0 10px;
   font-size: 12px;
@@ -41,7 +41,7 @@ height: 40px;
   margin: 20px 0;
 }
 .field_area input[type="email"]{
-  width: 350px;
+  width: 360px;
   height: 40px;
     padding: 0 10px;
     font-size: 12px;
@@ -50,18 +50,19 @@ height: 40px;
     border: none;
   }
   .field_area input[type="number"]{
-    width: 350px;
+    width: 360px;
     height: 40px;
       padding: 0 10px;
       font-size: 12px;
       background-color: rgb(220,220,220);
       border-radius: 10px;
       border: none;
-      margin: 0 0 20px;
+      margin: 0 auto 10px ;
+      display: flex;
     }
    
     textarea{
-      width: 350px;
+      width: 360px;
       height: 200px;
       padding: 10px 10px 0;
       font-size: 1rem;
