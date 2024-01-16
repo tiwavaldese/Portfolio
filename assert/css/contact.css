@@ -20,6 +20,7 @@
 .icon_items i{
   color: #C8007F;
 }
+
 .icon{
   border-radius: 50%;
   background-color: rgb(170,170,170);
@@ -30,6 +31,7 @@
 .field_area{
   padding: 26px;
 }
+
 .field_area input[type="text"]{
 width: 360px;
 height: 40px;
@@ -38,7 +40,7 @@ height: 40px;
   background-color: rgb(220,220,220);
   border-radius: 10px;
   border: none;
-  margin: 20px 0;
+  margin: 10px 0 ;
 }
 .field_area input[type="email"]{
   width: 360px;
@@ -48,6 +50,7 @@ height: 40px;
     background-color: rgb(220,220,220);
     border-radius: 10px;
     border: none;
+    margin-bottom: 5px;
   }
   .field_area input[type="number"]{
     width: 360px;
@@ -57,8 +60,6 @@ height: 40px;
       background-color: rgb(220,220,220);
       border-radius: 10px;
       border: none;
-      margin: 0 auto 10px ;
-      display: flex;
     }
    
     textarea{
@@ -178,7 +179,7 @@ height: 40px;
     padding: 0.5rem 0.7rem 0;
   }
   .field_area{
-    padding: 0 25px;
+    padding: 0 20px;
   }
   .name_email{
     gap: 5px;
