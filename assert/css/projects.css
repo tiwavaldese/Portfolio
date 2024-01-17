@@ -15,9 +15,10 @@
     text-align: center;
    }
    .excel_project ol{
-    list-style-type: 'a';
+    list-style-type: '1.)';
     text-align: center;
     font-size: 16px;
+    padding: 0  120px;
    }
    .excel_project p{
     text-align: center;
@@ -49,9 +50,10 @@
     text-align: center;
    }
    .code_project ol{
-    list-style-type: 'a';
+    list-style-type: '2.)';
     text-align: center;
     font-size: 16px;
+    padding: 0  120px;
    }
    .code_project p{
     text-align: center;
@@ -83,9 +85,10 @@
     text-align: center;
    }
    .copy_project ol{
-    list-style-type: 'a';
+    list-style-type: '3.)';
     text-align: center;
     font-size: 16px;
+    padding: 0  120px;
    }
    .copy_project p{
     text-align: center;
@@ -117,9 +120,10 @@
     text-align: center;
    }
    .digraph_project ol{
-    list-style-type: 'a';
+    list-style-type: '4.)';
     text-align: center;
     font-size: 16px;
+    padding: 0  120px;
    }
    .digraph_project p{
     text-align: center;
