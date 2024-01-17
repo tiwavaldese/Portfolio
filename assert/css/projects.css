@@ -17,6 +17,7 @@
  .excel_project h3{
     text-align: center;
     font-size: 16px;
+    color: #555;
    }
    .excel_project p{
     text-align: center;
@@ -51,6 +52,7 @@
    .code_project h3{
     text-align: center;
     font-size: 16px;
+    color: #555;
    }
    .code_project p{
     text-align: center;
@@ -86,6 +88,7 @@
     list-style-type: '3.)';
     text-align: center;
     font-size: 16px;
+    color: #555;
    }
    .copy_project p{
     text-align: center;
@@ -121,6 +124,7 @@
     list-style-type: '4.)';
     text-align: center;
     font-size: 16px;
+    color: #555;
    }
    .digraph_project p{
     text-align: center;
