@@ -10,13 +10,19 @@
     <title>My Projects</title>
     <link rel="icon" href="./assert/images/favicon-logo.PNG">
     <link rel="stylesheet" href="./assert/css/style.css">
+    <script src="./assert/js/index.js"></script>
 </head>
 <body>
-    <!-- Header tag -->
-    <header>
-        <!-- Navigation tag with list items within it -->
+     <!-- Header tag -->
+     <header>
+        <!-- Navigation tag with list items within -->
+        
         <nav id="nav-bar">
-            <ul>
+            <div class="logo_menu">
+            <img class="logo" src="./assert/images/favicon-logo.PNG">
+            <i data-feather="menu" class="menu" id="openOverlay" onclick="openOverlay()"></i>
+            </div>
+            <ul class="nav_bar">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Me</a></li>
                 <li><a href="projects.html">Projects</a></li>
@@ -25,6 +31,22 @@
                 <li><a href="contact.html">Contact Me</a></li>
             </ul>
         </nav>
+        <div class="overlay" id="overlay">
+            <div>
+                <span id="closeOverlay" onclick="closeOverlay()"></span>
+                <i data-feather="x" class="closeicon"></i>
+                <div class="menuitems-overlay">
+        <ul class="menuitems-overlay">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="multimedia.html">Multimedia</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+        </div>
+        </div>
+        </div>
     </header>
     <main>
         <div class="projects">
@@ -34,10 +56,123 @@
             <p>I am a front end developer who has done replication of many websites, contributed to many open source projects and i have built my own website.</p>
             <p>Below are some images of open source that i have contributed too with the descriptions of each website, their links,the tools and programming languages used for the contributions.</p>
         </div>
+        <section class="excel_project">
+            <div>
+                <h2>Project Name</h2>
+               <ol><li>An Excel Sheet</li></ol>
+            </div>
+            <div>
+                <h2>Description</h2>
+                <p>The project task is to use sweetalert.js to display an alert when the user clicks "generate" while the fields are empty, and when the user clicks "export" but there is no generated table to be exported</p>
+            </div>
+            <div>
+                <h2>Link</h2>
+                <a href="https://tiwavaldese.github.io/excel-sheet-generator/">Excel-sheet-generator</a>
+            </div>
+            <div>
+                <h2>Tools and Programming languages</h2>
+                <ul class="tools">
+                    <li>VS code,</li>
+                    <li>Git,</li>
+                    <li>GitHub,</li>
+                    <li>HTML,</li>
+                    <li>CSS and</li>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
+            <div>
+                <img class="excel" src="./assert/images/sheet_generator.PNG" width="300" height="200" alt="excel_sheet_genetor">
+            </div>
+        </section>
+        <section class="code_project">
+            <div>
+                <h2>Project Name</h2>
+                <ol><li>A Code Editor</li></ol>
+            </div>
+            <div>
+                <h2>Description</h2>
+                <p>The task is to implement auto-save functionality with localStorage, and auto-load the saved code when user revisits or refreshes the page.</p>
+            </div>
+            <div>
+                <h2>Link</h2>
+                <a href="https://tiwavaldese.github.io/live-web-code-editor/">Code-editor</a>
+            </div>
+            <div>
+                <h2>Tools and Programming languages</h2>
+                <ul class="tools">
+                    <li>VS code,</li>
+                    <li>Git,</li>
+                    <li>GitHub,</li>
+                    <li>HTML,</li>
+                    <li>CSS and</li>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
+            <div>
+                <img class="code" src="./assert/images/code_editor.PNG" width="300" height="200" alt="Code-editor">
+            </div>
+        </section>
+        <section class="copy_project">
+            <div>
+                <h2>Project Name</h2>
+                <ol><li>Copy Icons</li></ol>
+            </div>
+            <div>
+                <h2>Description</h2>
+                <p>The project task is to add an icon on each code sample, so user can copy the code to clipboard by clicking on this icon.</p>
+            </div>
+            <div>
+                <h2>Link</h2>
+                <a href="https://tiwavaldese.github.io/technical-documentation/">Documentation-Page</a>
+            </div>
+            <div>
+                <h2>Tools and Programming languages</h2>
+                <ul class="tools">
+                    <li>VS code,</li>
+                    <li>Git,</li>
+                    <li>GitHub,</li>
+                    <li>HTML,</li>
+                    <li>CSS and</li>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
+            <div>
+                <img class="copy" src="./assert/images/copy_image.PNG" width="300" height="200" alt="insertion_of_copy_icon">
+            </div>
+        </section>
+        <section class="digraph_project">
+            <div>
+                <h2>Project Name</h2>
+                <ol><li>Digraph Design</li></ol>
+            </div>
+            <div>
+                <h2>Description</h2>
+                <p>The task is to creat a DiGraph by using multiple nodes and edges between the nodes. Then looking for the shortest path and print it.</p>
+            </div>
+            <div>
+                <h2>Link</h2>
+                <a href="https://github.com/networkx/outreachy.git">Python-script</a>
+            </div>
+            <div>
+                <h2>Tools and Programming languages</h2>
+                <ul class="tools">
+                    <li>VS code,</li>
+                    <li>Git,</li>
+                    <li>GitHub,</li>
+                    <li>HTML,</li>
+                    <li>CSS and</li>
+                    <li>Python</li>
+                </ul>
+            </div>
+            <div>
+                <img class="digraph" src="./assert/images/script_py.PNG" width="200" height="200" alt="creating_a_DiGraph">
+            </div>
+        </section>
         <table>
             <caption>Projects Details</caption>
             <thead>
-                <!-- Header with images,descriptions,links ,tools and programming languages-->
+               <!-- Header with images,descriptions,links ,tools and programming languages -->
+                
                 <tr>
                     <th>Name</th>
                     <th>Description</th>
@@ -48,7 +183,8 @@
             </thead>
             <tbody>
                 <tr>
-                     <!-- Section with images,descriptions,links ,tools and programming languages-->
+                    <!--Section with images,descriptions,links ,tools and programming languages -->
+                    
                     <td>An Excel Sheet</td>
                     <td>The project task is to use sweetalert.js to display an alert when the user clicks "generate" while the fields are empty, and when the user clicks "export" but there is no generated table to be exported</td>
                     <td><a href="https://tiwavaldese.github.io/excel-sheet-generator/">Excel-sheet-generator</a></td>
@@ -65,8 +201,9 @@
                     <td><img src="./assert/images/sheet_generator.PNG" width="300" height="200" alt="excel_sheet_genetor"></td>
                 </tr>
                 <tr>
-                     <!-- Section with images,descriptions,links ,tools and programming languages-->
-                    <td>A Code Editor</td>
+                      <!-- Section with images,descriptions,links ,tools and programming languages -->
+                    
+                      <td>A Code Editor</td>
                     <td>The task is to implement auto-save functionality with localStorage, and auto-load the saved code when user revisits or refreshes the page.</td>
                     <td><a href="https://tiwavaldese.github.io/live-web-code-editor/">Code-editor</a></td>
                     <td>
@@ -82,8 +219,9 @@
                     <td><img src="./assert/images/code_editor.PNG" width="300" height="200" alt="Code-editor"></td>
                 </tr>
                 <tr>
-                     <!-- Section with images,descriptions,links ,tools and programming languages-->
-                    <td>Copy Icons</td>
+                  <!-- Section with images,descriptions,links ,tools and programming languages -->
+                   
+                  <td>Copy Icons</td>
                     <td>The project task is to add an icon on each code sample, so user can copy the code to clipboard by clicking on this icon.
                     </td>
                     <td><a href="https://tiwavaldese.github.io/technical-documentation/">Documentation-Page</a></td>
@@ -100,8 +238,9 @@
                     <td><img src="./assert/images/copy_image.PNG" width="300" height="200" alt="insertion_of_copy_icon"></td>
                 </tr>
                 <tr>
-                     <!-- Section with images,descriptions,links ,tools and programming languages-->
-                    <td>Digraph Design</td>
+                    <!-- Section with images,descriptions,links ,tools and programming languages -->
+                    
+                     <td>Digraph Design</td>
                     <td>The task is to creat a DiGraph by using multiple nodes and edges between the nodes. Then looking for the shortest path and print it.</td>
                     <td><a href="https://github.com/networkx/outreachy.git">Python-script</a></td>
                     <td>
@@ -118,10 +257,22 @@
                 </tr>
             </tbody>  
         </table>
+   
     </main>
      <!-- Footer tag-->
     <footer>
         <p>Copyright ©2023</p>
     </footer>
+    <script>
+        feather.replace()
+        function openOverlay(){
+            document.getElementById("overlay").style.display = "flex"
+            document.getElementById("openOverlay").style.display= "none"
+        }
+        function closeOverlay(){
+            document.getElementById("overlay").style.display= "none"
+            document.getElementById("openOverlay").style.display= "flex"
+        }
+    </script>
 </body>
 </html>
