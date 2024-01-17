@@ -33,6 +33,9 @@
     font-size: 12px;
     padding: 0 50px 5px;
    }
+   .excel_project span{
+    color: #C8007F;
+   }
 .excel{
     display: flex;
     margin: 0 auto;
@@ -63,6 +66,9 @@
    .code_project .tools{
     font-size: 12px;
     padding: 0 50px 5px;
+   }
+   .code_project span{
+    color: #C8007F;
    }
    .code{
     display: flex;
@@ -95,6 +101,9 @@
     font-size: 12px;
     padding: 0 50px 5px;
    }
+   .copy_project span{
+    color: #C8007F;
+   }
    .copy{
     display: flex;
     margin: 0 auto;
@@ -125,6 +134,9 @@
    .digraph_project .tools{
     font-size: 12px;
     padding: 0 50px 5px;
+   }
+   .digraph_project span{
+    color: #C8007F;
    }
    .digraph{
     display: flex;
